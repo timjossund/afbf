@@ -1,0 +1,97 @@
+.welcomeWrapper {
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    padding: 0px 15px 30px 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tabsWrapper {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -45px;
+}
+
+.tab {
+    width: 33%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tab-active {
+    width: 33%;
+    height: 50px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+}
+
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.contentBox h2 {
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+.contentBox h4 {
+    margin: 10px 0px;
+}
+
+.contentBox p {
+    margin: 10px 0px;
+}
+
+.imgWrapper {
+    width: 280px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.officerPic {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:500px) {
+    .contentWrapper {
+        flex-direction: column;
+    }
+
+    .contentBox {
+        width: 100%;
+    }
+}

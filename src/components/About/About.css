@@ -1,0 +1,15 @@
+.aboutWrapper {
+    width: 100%;
+    padding: 40px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.contentWrapperAbout {
+    max-width: 1200px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+}
