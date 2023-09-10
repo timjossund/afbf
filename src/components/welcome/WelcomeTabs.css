@@ -74,6 +74,11 @@
     margin: 10px 0px;
 }
 
+.contentBox a {
+    text-decoration: none;
+    color: black;
+}
+
 .imgWrapper {
     width: 280px;
     height: 170px;
