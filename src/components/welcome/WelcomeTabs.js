@@ -64,7 +64,7 @@ export default function WelcomeTabs() {
                     </div>
                     <h2>TED PATTERSON</h2>
                     <h4>President and Treasurer of the AFBF</h4>
-                    <p>Pastor at Jacksonville Baptist Temple <br />in Jacksonville, AR<br />(501) 982-6433<br />jacksonvillebaptist.org</p>
+                    <p>Pastor at Jacksonville Baptist Temple <br />in Jacksonville, AR<br /><a href='tel:5019826433'>(501) 982-6433</a><br /><a href='https://jacksonvillebaptist.org'>jacksonvillebaptist.org</a></p>
                 </div>
                 <div className="contentBox">
                     <div className='imgWrapper'>
@@ -72,7 +72,7 @@ export default function WelcomeTabs() {
                     </div>
                     <h2>Nate Jossund</h2>
                     <h4>Secretary of the AFBF</h4>
-                    <p>Pastor at Bible Baptist Church <br />in Conway, AR<br />(501) 327-5221<br />bbcconway.com</p>
+                    <p>Pastor at Bible Baptist Church <br />in Conway, AR<br /><a href='tel:5019826433'>(501) 327-5221</a><br /><a href='https://bbcconway.com'>bbcconway.com</a></p>
                 </div>
             </div> : null }
 
